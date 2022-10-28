@@ -1,6 +1,6 @@
 """
 Assumptions:
- solved for tje equation : x^2-x-1
+ solved for the equation : x^2-x-1
 """ 
 def f(x):
   return ((x*x)-x-1) 
