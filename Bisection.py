@@ -21,6 +21,8 @@ try :
        b=m
      m=(a+b)/2
      i=i+1
+     if i==50:
+      break
    print(i,a,b,m,f(m),f(a)*f(m))
    print("Root are",m)
 except:
