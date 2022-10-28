@@ -14,6 +14,8 @@ try :
      print(i,a,b,m,f(m))
      a=b
      b=m
+     if (f(b)-f(a)==0):
+      break
      m=(a*f(b)-b*f(a))/(f(b)-f(a))
      i=i+1
      if i==50:
