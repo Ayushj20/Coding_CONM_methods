@@ -16,6 +16,8 @@ try :
      b=m
      m=(a*f(b)-b*f(a))/(f(b)-f(a))
      i=i+1
+     if i==50:
+      break
    print(i,a,b,m,f(m))
    print("Root are",m)
 except:
