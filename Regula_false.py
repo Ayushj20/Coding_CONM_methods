@@ -1,3 +1,7 @@
+"""
+Assumptions:
+ solved for the equation : x^2-x-1
+""" 
 def f(x):
   return ((x*x)-x-1) 
 a=float(input("Enter \"a\" value\n"))
